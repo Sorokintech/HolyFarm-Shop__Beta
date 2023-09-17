@@ -1,5 +1,3 @@
-import React from "react";
-
 export const HomeIcon = ({ className = "" }) => (
   <svg
     width="1.325rem"
