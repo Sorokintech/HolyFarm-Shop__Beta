@@ -1,0 +1,30 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--background-color-primary);
+  color: var(--color-text);
+  .contact-us-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-weight: 400;
+    font-size: 0.825rem;
+    &:hover {
+      .contact-us-item__link {
+        color: var(--background-color-secondary);
+      }
+      #telegram_icon,
+      #email_icon {
+        fill: var(--background-color-secondary);
+      }
+    }
+    &__icon {
+      width: 1.5rem;
+    }
+    &__link {
+      text-decoration: none;
+      color: var(--color-text);
+    }
+  }
+}

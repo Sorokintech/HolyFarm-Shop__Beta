@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--background-color-other);
+  padding: 0.5rem 1rem;
+  min-width: 10rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 1rem;
+  cursor: pointer;
+  &__link {
+    text-decoration: none;
+    color: var(--color-text);
+  }
+}

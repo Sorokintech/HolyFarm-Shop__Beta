@@ -1,0 +1,16 @@
+.logo-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  &__image {
+    width: 6rem;
+  }
+  &__text {
+    font-size: 1.825rem;
+    font-weight: 800;
+    color: var(--background-color-secondary);
+  }
+}

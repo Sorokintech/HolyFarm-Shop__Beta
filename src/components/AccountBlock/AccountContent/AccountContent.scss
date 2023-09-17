@@ -1,0 +1,52 @@
+.account-content {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    padding: 1rem;
+    color: var(--color-text);
+  }
+  &__items {
+    &__account {
+      display: grid;
+      align-items: center;
+
+      grid-template-columns: repeat(16, 1fr);
+      padding: 0.625rem 0;
+      &__icon {
+        grid-column: 1 span;
+        justify-self: center;
+      }
+      &__description {
+        grid-column: 7 span;
+        font-size: 0.825rem;
+        font-weight: 500;
+        color: var(--color-text);
+      }
+      &__quantity {
+        grid-column: 2 span;
+        justify-self: center;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: var(--color-text);
+      }
+      &__price {
+        grid-column: 2 span;
+        justify-self: center;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: var(--color-text);
+        & > p {
+          color: var(--background-color-other);
+        }
+      }
+      &__btn {
+        grid-column: 3 span;
+      }
+      &__cart {
+        grid-column: 1 span;
+        justify-self: center;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@use "../../assets/styles/colors.scss" as *;
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  min-height: 100vh;
+  padding-left: 1rem;
+  gap: 1rem;
+  background-color: var(--background-color-primary);
+  box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  .navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.325rem;
+    border: transparent;
+    border-radius: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-weight: 400;
+    font-size: 0.825rem;
+
+    &:hover {
+      .navbar-item__link {
+        color: var(--background-color-secondary);
+      }
+      #home_icon,
+      #replacement_icon,
+      #referral_icon {
+        fill: var(--background-color-secondary);
+      }
+      #account_icon,
+      #blog_icon {
+        stroke: var(--background-color-secondary);
+      }
+    }
+    &__icon {
+      width: 1.325rem;
+      fill: #fff;
+    }
+    &__link {
+      text-decoration: none;
+      color: var(--color-text);
+    }
+  }
+}

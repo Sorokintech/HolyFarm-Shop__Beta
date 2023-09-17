@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 1.5rem;
+  gap: 2rem;
+  background-color: var(--background-color-primary);
+  box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset,
+    20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+  .header-user-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .header-user-block-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.625rem;
+      font-weight: 400;
+      font-size: 0.825rem;
+      &:hover {
+        .header-user-block-item__link {
+          color: var(--background-color-secondary);
+        }
+        #shopping_cart_icon {
+          fill: var(--background-color-secondary);
+        }
+        #account_icon {
+          stroke: var(--background-color-secondary);
+        }
+      }
+
+      &__icon {
+        width: 1.5rem;
+      }
+      &__link {
+        text-decoration: none;
+        color: var(--color-text);
+      }
+    }
+  }
+  .header-settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .header-settings-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      cursor: pointer;
+      &__icon {
+        width: 1.725rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
