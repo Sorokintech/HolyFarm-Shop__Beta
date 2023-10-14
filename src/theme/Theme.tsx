@@ -4,11 +4,12 @@ export const themes = {
   light: {
     name: "light",
     icon_color: "#000000",
+    // icon_color: "#ffffff",
   },
   dark: {
     name: "dark",
-    // icon_color: "#ffffff",
-    icon_color: "#939393",
+    icon_color: "#ffffff",
+    // icon_color: "#939393",
   },
 };
 

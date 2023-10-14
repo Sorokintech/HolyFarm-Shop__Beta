@@ -4,25 +4,33 @@
   gap: 1rem;
   background-color: var(--background-color-primary);
   color: var(--color-text);
+
+  &__header {
+    font-weight: 500;
+    color: var();
+  }
   .contact-us-item {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    font-weight: 400;
-    font-size: 0.825rem;
+    gap: 0.5rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    font-size: 1rem;
     &:hover {
       .contact-us-item__link {
-        color: var(--background-color-secondary);
+        color: var(--background-color-other);
       }
       #telegram_icon,
       #email_icon {
-        fill: var(--background-color-secondary);
+        transition: 0.25s all;
+        fill: var(--background-color-other);
       }
     }
     &__icon {
       width: 1.5rem;
     }
     &__link {
+      transition: 0.25s all;
       text-decoration: none;
       color: var(--color-text);
     }

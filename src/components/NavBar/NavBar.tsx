@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { NavLink } from "react-router-dom";
 
-import ContactUs from "../ContactUs/ContactUs";
+import ContactUs from "./ContactUs/ContactUs";
 import {
   HomeIcon,
   BlogIcon,
@@ -9,7 +9,7 @@ import {
   ReplacementIcon,
 } from "../../assets/icons/icons";
 
-import Logo from "../Logo/Logo";
+import Logo from "./Logo/Logo";
 
 import "./NavBar.scss";
 

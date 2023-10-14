@@ -8,41 +8,45 @@
   padding-left: 1rem;
   gap: 1rem;
   background-color: var(--background-color-primary);
-  box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  // box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
   .navbar-item {
     display: flex;
+    margin-left: 1.5rem;
     flex-direction: row;
     align-items: center;
     padding: 0.325rem;
     border: transparent;
-    border-radius: 1rem;
-    gap: 1rem;
+    border-radius: 0.325rem;
+    gap: 0.5rem;
     cursor: pointer;
-    transition: all 0.25s;
-    font-weight: 400;
-    font-size: 0.825rem;
+    font-weight: 500;
+    font-size: 1rem;
 
     &:hover {
       .navbar-item__link {
-        color: var(--background-color-secondary);
+        color: var(--background-color-other);
       }
       #home_icon,
       #replacement_icon,
       #referral_icon {
-        fill: var(--background-color-secondary);
+        transition: 0.5s all;
+        fill: var(--background-color-other);
       }
       #account_icon,
       #blog_icon {
-        stroke: var(--background-color-secondary);
+        transition: 0.5s all;
+        stroke: var(--background-color-other);
       }
     }
     &__icon {
       width: 1.325rem;
+      transition: 0.25s all;
       fill: #fff;
     }
     &__link {
       text-decoration: none;
       color: var(--color-text);
+      transition: 0.25s all;
     }
   }
 }

@@ -3,7 +3,7 @@
 .info-block {
   padding: 1rem 2rem;
   //   margin: 1rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0.325rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,8 +15,8 @@
     gap: 1rem;
     &__btn {
       padding: 0.625rem 1.5rem;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
+      border-top-left-radius: 0.325rem;
+      border-top-right-radius: 0.325rem;
       border: transparent;
       opacity: 0.3;
 
@@ -39,11 +39,13 @@
     align-items: center;
     border: transparent;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 0.325rem;
+    color: #fff;
     padding: 2rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     background-color: #fff;
+    background-image: url("../../assets/icons/2.gif");
     font-weight: 500;
     font-size: 0.825rem;
   }

@@ -1,14 +1,15 @@
 .hello {
   margin: 1rem 1rem;
-  border-radius: 1rem;
+  border-radius: 0.325rem;
   width: 97%;
-  border: 10px solid #fff;
+  border: -0.325rem solid #000;
+  margin-left: 1rem;
   box-sizing: border-box;
 }
 .welcome-block {
   padding: 1rem 3rem;
   margin: 1rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0.325rem;
   display: flex;
   flex-direction: row;
   background-color: var(--background-color-secondary);

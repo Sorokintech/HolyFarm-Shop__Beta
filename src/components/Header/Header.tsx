@@ -7,14 +7,17 @@ import { useThemeContext } from "../../theme/Theme";
 import {
   ShoppingCartIcon,
   AccountIcon,
-  LightSwitchIcon,
-  DarkSwitchIcon,
+  // LightSwitchIcon,
+  // DarkSwitchIcon,
 } from "../../assets/icons/icons";
 
 import "./Header.scss";
 
 const Header: FC = () => {
-  const { theme, toggleTheme } = useThemeContext();
+  const {
+    theme,
+    // toggleTheme
+  } = useThemeContext();
   return (
     <div className={cn("header")}>
       <div className={cn("header-user-block")}>
@@ -31,7 +34,7 @@ const Header: FC = () => {
           </NavLink>
         </div>
       </div>
-      <div className={cn("header-settings")}>
+      {/* <div className={cn("header-settings")}>
         <div className={cn("header-settings-item")} onClick={toggleTheme}>
           {theme.name !== "light" ? (
             <DarkSwitchIcon className={cn(theme.icon_color)} />
@@ -39,7 +42,7 @@ const Header: FC = () => {
             <LightSwitchIcon className={cn(theme.icon_color)} />
           )}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

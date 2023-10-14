@@ -1,0 +1,8 @@
+.logo-block {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  &__image {
+    width: 80%;
+  }
+}
