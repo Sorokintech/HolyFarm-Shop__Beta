@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import Banner from "../../assets/images/banner.jpg";
+import Banner from "../../assets/images/banner.png";
 import "./WelcomeBlock.scss";
 // import Logo from "../../assets/logo-scream.svg";
 // import { useThemeContext } from "../../theme/Theme";

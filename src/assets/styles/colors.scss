@@ -29,11 +29,12 @@
 
 // New THEME (CHANGED AVAILABLE)
 .light {
-  --color-text: #000000;
-  --color-text-opposite: #ffffff;
-  --background-color-primary: #fffaff;
-  --background-color-secondary: #625aff;
-  --background-color-other: #000000;
+  --color-text: #ffffff;
+  --color-text-opposite: #000000;
+  --background-color-primary: #010101;
+  // --background-color-primary: #050505;
+  --background-color-secondary: #b18ff4;
+  --background-color-other: #ffffff;
   --background-color-input: #449dd1;
 }
 .dark {

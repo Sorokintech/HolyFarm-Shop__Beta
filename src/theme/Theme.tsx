@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 export const themes = {
   light: {
     name: "light",
-    icon_color: "#000000",
+    icon_color: "#ffffff",
     // icon_color: "#ffffff",
   },
   dark: {
