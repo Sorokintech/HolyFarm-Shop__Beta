@@ -1,7 +1,7 @@
 import { FC } from "react";
 import cn from "classnames";
 
-import LogoImage from "../../../assets/images/logo.gif";
+import LogoImage from "../../../assets/images/Logo.gif";
 
 import "./Logo.scss";
 
